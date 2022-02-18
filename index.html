@@ -1,0 +1,165 @@
+<!--Huiping Lin's Website-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/a.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/a.jpg">
+  <link rel="mask-icon" href="/images/a.svg" color="#222">
+    <title>Welcome to Huiping Lin | 林汇平's Homepage</title>
+    <!--fonts and styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="c">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="screen">
+
+    <!--paper list generation utilities-->
+    <script src="js/author-list.js" type="text/javascript"></script>
+    <script src="js/paper-list.js" type="text/javascript"></script>
+    <script src="js/print-paper.js" type="text/javascript"></script>
+    <script>
+        function toggleAbstract(id) {
+            $("#" + id).slideToggle();
+            return (false);
+        };
+    </script>
+
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $('#infoTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        })
+    </script>
+
+</head>
+
+<body oncontextmenu="return false">
+    <div class="container">
+        <!-- Header -->
+        <div class="row">
+            <div class="span10 offset1">
+                <div class="page-header">
+                    <h2>Huiping Lin / Phoenix Rain | <font style="font-family:华文中宋">林汇平</font><br />
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="span2">
+                        <img src="images/lhp5.jpg" width="450px" alt="photo of mine" style="margin-top: 10px;" />
+                    </div>
+                    <div class="span8">
+                        <h5><font color="#9E194E">❤欢迎来到我的计算机世界❤</font></h5>
+                        <h4>Education</h4>
+                        <a href="https://eecs.pku.edu.cn" target="_blank">School of Electronics
+                            Engineering and Computer Science</a> (信息科学技术学院)<br />
+                        <a href="https://www.pku.edu.cn" target="_blank">Peking University</a> (北京大学)<br />
+                        <h4>Contacts</h4>
+                        <b>E-mail</b>: phoenixrain@pku.edu.cn<br />
+                        <b>GitHub</b>: <a href="https://github.com/phoenixrain-pku" target="_blank">phoenixrain-pku</a><br />
+                        <b>Blog</b>: Click <a href="http://blog.lhp-pku.top" target="_blank">here</a> to see my blogs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="row main-panel">
+            <div class="span10 offset1">
+                <ul id="infoTab" class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#about">About Me</a>
+                    </li>
+                    <li class="">
+                        <a data-toggle="tab" href="#paper">Publications</a>
+                    </li>
+                    <li class="">
+                        <a data-toggle="tab" href="#project">Projects</a>
+                    </li>
+                </ul>
+                <div id="infoTabContent" class="tab-content detail-box">
+                    <!-- About Me -->
+                    <div id="about" class="tab-pane fade in active">
+                        <div class="section-content">
+                            <p>I'm currently an undergraduate student at Peking University, studying in Turing Class (CS).
+                            </p>
+
+                            <p>I'm advised by Zhengfeng Ji (季铮锋).
+                            </p>
+                            <p>I'm interested in Quantum Computing and Networking Measurement.
+                            </p>
+                             <p>
+                                我是一名本科生，现就读于北京大学信息科学技术学院图灵班，专业为计算机科学与技术。我的导师是清华大学计算机系的季铮锋老师。我的兴趣为量子计算与网络测量。
+                            </p>
+                            <p>
+                                进入我的<a href="http://blog.lhp-pku.top" target="_blank">博客</a>了解更多。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Papers -->
+                    <div id="paper" class="tab-pane fade">
+                        <div class="section-content">
+                            <h4>My published papers / 论文:</h4>
+                            <ul style="list-style-type: circle;">
+                                <li>Yibo Yan, Cheng Chen, <u>Huiping Lin</u>, Olivier Ruas, Tengjiao Wang, Tong Yang. Priority-Aware Per-flow Measurement using Cuckoo Sketch. <em><strong>IFIP Networking Posters 2020</em></strong>.<a href="papers/CuckooSketch.pdf"
+                                    target="_blank">[pdf]</a>
+                                </li>
+                                <li>Wenjun Li, Tong Yang, Ori Rottenstreich, Xianfeng Li, Gaogang Xie, Hui Li, Balajee Vamanan, Dagang Li, <u>Huiping Lin</u>. Tuple Space Assisted Packet Classification with High Performances on Both Search and Update. <em><strong>JSAC 2020</em></strong>.<a href="papers/jsac2020.pdf"
+                                    target="_blank">[pdf]</a>
+                                </li>
+                            </ul>
+                            
+                            <h4>My published patents / 专利:</h4>
+                            <ul style="list-style-type: circle;">
+                                <li>一种特征网络流的数据识别方法
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="project" class="tab-pane fade">
+                        <div class="section-content">
+                            <h4>My projects / 项目:</h4>
+                            <ul style="list-style-type: circle;">
+                                <li>Fracture Detection Project 使用 Yolo-v3 的骨折检测 <a href="papers/Project_Report.pdf"
+                                    target="_blank">[pdf]</a>, <a href="https://github.com/NaturezzZ/FractureDetection-PyTorchYOLOv3"
+                                    target="_blank">[github]</a>
+                                </li>
+                                <li>JumpJump Game 跳跃游戏 <a href="https://lhp-pku.github.io/"
+                                    target="_blank">[demo]</a>, <a href="https://github.com/phoenixrain-pku/JumpJumpGame"
+                                    target="_blank">[github]</a>
+                                </li>
+                                <li>Random Music Generated by Markov Chain 使用马尔可夫链的随机音乐生成 <a href="papers/音数.pdf"
+                                    target="_blank">[pdf]</a>, <a href="https://github.com/wzj52501/Music-and-Mathematics-Term-Project"
+                                    target="_blank">[github]</a>
+                                </li>
+                                <li>EECS129 PKU Homepage 信科教唱组主页 <a href="https://eecs129.site/"
+                                    target="_blank">[link]</a>
+                                </li>
+                                <li>To be updated...
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Searching for my story? Try to visit lhp-pku.top/story.html and maybe you can find something. -->
+                </div>
+            </div>
+            
+            <div class="span10 offset1">
+                <div class="section-content"
+                    style="margin-top: 0px; margin-bottom: 40px; border-top: 1px solid #e6e6e6;">
+                    <div style="margin-top: 5px;">
+                        Last updated: November 9th, 2021
+                        <p>
+                            在<a href="http://lhp-pku.top/story.html" target="_blank">这里</a>您可以看到我的一点故事。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
