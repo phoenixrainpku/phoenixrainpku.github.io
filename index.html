@@ -59,7 +59,20 @@
                         <strong>Ph.D.</strong> Department of Computer Science and Technology, Tsinghua University. 2022-now.<br />
                         <strong>B.S.</strong> Turing Class, School of EECS, Peking University. 2018-2022.<br />
                         <h4>Contact</h4>
-                        <b>E-mail</b>: <a href="mailto:phoenixrain@pku.edu.cn" target="_blank">PKU mail</a> or  <a href="mailto:lhp22@mails.tsinghua.edu.cn" target="_blank">THU mail</a><br />
+                        <b>E-mail</b>:
+                        <a id="thu-mail" href="#">THU mail</a> or
+                        <a id="pku-mail" href="#">PKU mail</a><br />
+                        <script>
+                        (function(){
+                            var a='lhp22',       b='mails.tsinghua.edu.cn';
+                            var c='phoenixrain', d='pku.edu.cn';
+                            var at='@';
+                            var t=document.getElementById('thu-mail');
+                            var p=document.getElementById('pku-mail');
+                            t.href='mailto:'+a+at+b;
+                            p.href='mailto:'+c+at+d;
+                        })();
+                        </script>
                         <h4>Profiles</h4>
                         <a href="https://scholar.google.com/citations?user=ZGOC0QQAAAAJ" target="_blank">Google Scholar</a>,
                         <a href="https://github.com/phoenixrain-pku" target="_blank">Github</a>,
